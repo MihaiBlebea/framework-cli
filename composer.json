@@ -1,0 +1,23 @@
+{
+    "name": "serban/framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Serban Blebea",
+            "email": "mihaiserban.blebea@gmail.com"
+        }
+    ],
+    "require": {
+        "filp/whoops": "^2.1",
+        "phpmailer/phpmailer": "^6.0",
+        "smarty/smarty": "~3.1",
+        "nesbot/carbon": "~1.21",
+        "braintree/braintree_php" : "3.24.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "Framework\\": "framework/"
+        }
+    }
+}
