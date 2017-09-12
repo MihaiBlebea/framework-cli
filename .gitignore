@@ -1,6 +1,6 @@
 /vendor/
 /config/application.php
 /config/component.php
-/config/databse.php
+/config/database.php
 /config/email.php
 /config/payment.php
