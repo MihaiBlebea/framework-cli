@@ -1,5 +1,6 @@
 {
     "name": "serban/framework",
+    "description": "My framework project in PHP",
     "type": "project",
     "authors": [
         {
@@ -7,7 +8,9 @@
             "email": "mihaiserban.blebea@gmail.com"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
+        "php": ">=5.3.0",
         "filp/whoops": "^2.1",
         "phpmailer/phpmailer": "^6.0",
         "smarty/smarty": "~3.1",
