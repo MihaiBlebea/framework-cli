@@ -6,13 +6,15 @@ return [
 
     "model_namespace"      => "App\\Models\\",
 
-    "controller_namespace" => "App\\Models\\",
+    "controller_namespace" => "App\\Controller\\",
 
     "event_namespace"      => "App\\Events\\",
 
     "listener_namespace"   => "App\\Listeners\\",
 
     "session_namespace"    => "App\\Sessions\\",
+
+    "command_namespace"    => "App\\Commands\\",
 
     "app_name"             => "Framework",
 
