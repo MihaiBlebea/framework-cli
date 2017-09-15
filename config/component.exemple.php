@@ -3,17 +3,17 @@
 return [
     "components" => [
 
-        "Config"    => "Framework\Injectables\ConfigComponent",
-        "Request"   => "Framework\Injectables\RequestComponent",
-        "Template"  => "Framework\Injectables\TemplateComponent",
-        "Whoops"    => "Framework\Injectables\WhoopsComponent",
-        "Login"     => "Framework\Injectables\LoginComponent",
-        "Connector" => "Framework\Injectables\ConnectorComponent",
-        "Email"     => "Framework\Injectables\EmailComponent",
-        "Payment"   => "Framework\Injectables\PaymentComponent",
-        "Validator" => "Framework\Injectables\ValidatorComponent",
+        "Config"    => Framework\Injectables\ConfigComponent::class,
+        "Request"   => Framework\Injectables\RequestComponent::class,
+        "Template"  => Framework\Injectables\TemplateComponent::class,
+        "Whoops"    => Framework\Injectables\WhoopsComponent::class,
+        "Login"     => Framework\Injectables\LoginComponent::class,
+        "Connector" => Framework\Injectables\ConnectorComponent::class,
+        "Email"     => Framework\Injectables\EmailComponent::class,
+        "Payment"   => Framework\Injectables\PaymentComponent::class,
+        "Validator" => Framework\Injectables\ValidatorComponent::class,
 
-        "Router"    => "Framework\Injectables\RouterComponent"
+        "Router"    => Framework\Injectables\RouterComponent::class
 
     ],
 
