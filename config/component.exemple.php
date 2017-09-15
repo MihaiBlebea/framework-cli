@@ -13,7 +13,6 @@ return [
         "Payment"   => "Framework\Injectables\PaymentComponent",
         "Validator" => "Framework\Injectables\ValidatorComponent",
 
-        "House"     => "TestIoc\Components\HouseComponent",
         "Router"    => "Framework\Injectables\RouterComponent"
 
     ],
