@@ -16,6 +16,12 @@ return [
 
     "command_namespace"    => "App\\Commands\\",
 
+    "manager_namespace"    => "App\\Managers\\",
+
+    "component_namespace"  => "App\\Components\\",
+
+    "rule_namespace"       => "App\\Rules\\",
+
     "app_name"             => "Framework",
 
     "app_path"             => "http://localhost:8070/Tests/test-IOC/public"
