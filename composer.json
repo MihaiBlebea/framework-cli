@@ -16,7 +16,7 @@
         "smarty/smarty": "~3.1",
         "nesbot/carbon": "~1.21",
         "braintree/braintree_php" : "3.24.0",
-        "serban/framework" : "1.0"
+        "serban/framework" : "^1.1"
     },
     "autoload": {
         "psr-4": {
