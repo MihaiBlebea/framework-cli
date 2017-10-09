@@ -4,7 +4,7 @@ namespace App\Controllers;
 
 use Framework\Injectables\Injector;
 use Framework\Facades\RouterFacade;
-use Framework\Alias\Request as AliasRequest;
+use Framework\Alias\Request;
 use Framework\Alias\Template;
 
 class IndexController
