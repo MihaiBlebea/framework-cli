@@ -4,7 +4,7 @@ return [
     "connect" => [
 
         'servername' => 'localhost',
-        'database'   => 'serban_vanzari',
+        'database'   => 'slabeste_vanzari',
         'username'   => 'root',
         'password'   => ''
 
