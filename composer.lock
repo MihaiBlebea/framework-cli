@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f2d524d50b875a23fcec5555c703e00",
+    "content-hash": "f3685a7f88cb063b5d6f2238f8956237",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -55,16 +55,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.10",
+            "version": "2.1.14",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "ffbbd2c06c64b08fb47974eed5dbce4ca2bb0eec"
+                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/ffbbd2c06c64b08fb47974eed5dbce4ca2bb0eec",
-                "reference": "ffbbd2c06c64b08fb47974eed5dbce4ca2bb0eec",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
+                "reference": "c6081b8838686aa04f1e83ba7e91f78b7b2a23e6",
                 "shasum": ""
             },
             "require": {
@@ -73,7 +73,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
-                "phpunit/phpunit": "^4.8 || ^5.0",
+                "phpunit/phpunit": "^4.8.35 || ^5.7",
                 "symfony/var-dumper": "^2.6 || ^3.0"
             },
             "suggest": {
@@ -109,10 +109,10 @@
                 "exception",
                 "handling",
                 "library",
-                "whoops",
-                "zf2"
+                "throwable",
+                "whoops"
             ],
-            "time": "2017-08-03T18:23:40+00:00"
+            "time": "2017-11-23T18:22:44+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -280,16 +280,16 @@
         },
         {
             "name": "serban/framework",
-            "version": "v1.1",
+            "version": "v1.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SerbanBlebea/framework.git",
-                "reference": "78368477abc635370da129e773e1e29ee00f5594"
+                "reference": "bf0f4f6ca6bac124524cf9374e2a46b1378e3be8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SerbanBlebea/framework/zipball/78368477abc635370da129e773e1e29ee00f5594",
-                "reference": "78368477abc635370da129e773e1e29ee00f5594",
+                "url": "https://api.github.com/repos/SerbanBlebea/framework/zipball/bf0f4f6ca6bac124524cf9374e2a46b1378e3be8",
+                "reference": "bf0f4f6ca6bac124524cf9374e2a46b1378e3be8",
                 "shasum": ""
             },
             "require": {
@@ -314,7 +314,43 @@
                 }
             ],
             "description": "My framework project in PHP",
-            "time": "2017-09-16T09:23:26+00:00"
+            "time": "2018-02-10T18:05:15+00:00"
+        },
+        {
+            "name": "serbanblebea/organize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SerbanBlebea/Organize.git",
+                "reference": "0b2de3702e19804dd8968299e2f034f9217fbd7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SerbanBlebea/Organize/zipball/0b2de3702e19804dd8968299e2f034f9217fbd7a",
+                "reference": "0b2de3702e19804dd8968299e2f034f9217fbd7a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "SerbanBlebea\\Organize\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mihai Serban Blebea",
+                    "email": "mihaiserban.blebea@gmail.com"
+                }
+            ],
+            "description": "This is a ORM package for migrating and using models in any PHP project",
+            "time": "2018-02-10 18:21:40"
         },
         {
             "name": "smarty/smarty",
@@ -322,12 +358,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/smarty-php/smarty.git",
-                "reference": "deb9e12aaa0f955da08d54f8ac525682389b5a81"
+                "reference": "93909aacf8df28cbd41b26adfc1a3af1de29ab9b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/deb9e12aaa0f955da08d54f8ac525682389b5a81",
-                "reference": "deb9e12aaa0f955da08d54f8ac525682389b5a81",
+                "url": "https://api.github.com/repos/smarty-php/smarty/zipball/93909aacf8df28cbd41b26adfc1a3af1de29ab9b",
+                "reference": "93909aacf8df28cbd41b26adfc1a3af1de29ab9b",
                 "shasum": ""
             },
             "require": {
@@ -367,7 +403,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-08-26 14:13:04"
+            "time": "2017-11-22 00:21:09"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -375,12 +411,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803"
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
-                "reference": "7c8fae0ac1d216eb54349e6a8baa57d515fe8803",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/78be803ce01e55d3491c1397cf1c64beb9c1b63b",
+                "reference": "78be803ce01e55d3491c1397cf1c64beb9c1b63b",
                 "shasum": ""
             },
             "require": {
@@ -392,7 +428,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.5-dev"
+                    "dev-master": "1.7-dev"
                 }
             },
             "autoload": {
@@ -426,7 +462,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-14 15:44:48"
+            "time": "2018-01-30 19:27:44"
         },
         {
             "name": "symfony/translation",
@@ -434,12 +470,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "936bf6dc8955de486d11deebd26aa938322b1555"
+                "reference": "10b32cf0eae28b9b39fe26c456c42b19854c4b84"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/936bf6dc8955de486d11deebd26aa938322b1555",
-                "reference": "936bf6dc8955de486d11deebd26aa938322b1555",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/10b32cf0eae28b9b39fe26c456c42b19854c4b84",
+                "reference": "10b32cf0eae28b9b39fe26c456c42b19854c4b84",
                 "shasum": ""
             },
             "require": {
@@ -449,7 +485,7 @@
             "conflict": {
                 "symfony/config": "<2.8",
                 "symfony/dependency-injection": "<3.4",
-                "symfony/yaml": "<3.3"
+                "symfony/yaml": "<3.4"
             },
             "require-dev": {
                 "psr/log": "~1.0",
@@ -457,7 +493,7 @@
                 "symfony/dependency-injection": "~3.4|~4.0",
                 "symfony/finder": "~2.8|~3.0|~4.0",
                 "symfony/intl": "^2.8.18|^3.2.5|~4.0",
-                "symfony/yaml": "~3.3|~4.0"
+                "symfony/yaml": "~3.4|~4.0"
             },
             "suggest": {
                 "psr/log": "To use logging capability in translator",
@@ -494,13 +530,15 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-09-15 10:12:22"
+            "time": "2018-01-18 22:16:57"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "serbanblebea/organize": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
