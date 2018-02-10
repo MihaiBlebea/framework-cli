@@ -18,7 +18,7 @@
         "nesbot/carbon": "~1.21",
         "braintree/braintree_php" : "3.24.0",
         "serban/framework" : "^1.18",
-        "serbanblebea/organize": "dev-master"
+        "serbanblebea/organize": "^1.0"
     },
     "autoload": {
         "psr-4": {
