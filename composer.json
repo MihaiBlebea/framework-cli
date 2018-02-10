@@ -1,13 +1,14 @@
 {
     "name": "serbanblebea/framework-cli",
     "description": "My framework project in PHP with CLI",
-    "type": "project",
+    "type": "library",
     "authors": [
         {
             "name": "Serban Blebea",
             "email": "mihaiserban.blebea@gmail.com"
         }
     ],
+    "license": "MIT",
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.3.0",
