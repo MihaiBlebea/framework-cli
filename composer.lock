@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "f3685a7f88cb063b5d6f2238f8956237",
+    "content-hash": "dd24cc3c1459c46db4aef9182147a908",
     "packages": [
         {
             "name": "braintree/braintree_php",
@@ -318,22 +318,22 @@
         },
         {
             "name": "serbanblebea/organize",
-            "version": "dev-master",
+            "version": "v1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/SerbanBlebea/Organize.git",
-                "reference": "0b2de3702e19804dd8968299e2f034f9217fbd7a"
+                "reference": "83d04258ab96b3c32aea563f9ae924b672deceba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/SerbanBlebea/Organize/zipball/0b2de3702e19804dd8968299e2f034f9217fbd7a",
-                "reference": "0b2de3702e19804dd8968299e2f034f9217fbd7a",
+                "url": "https://api.github.com/repos/SerbanBlebea/Organize/zipball/83d04258ab96b3c32aea563f9ae924b672deceba",
+                "reference": "83d04258ab96b3c32aea563f9ae924b672deceba",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.0"
             },
-            "type": "project",
+            "type": "library",
             "autoload": {
                 "psr-4": {
                     "SerbanBlebea\\Organize\\": "src/"
@@ -350,7 +350,7 @@
                 }
             ],
             "description": "This is a ORM package for migrating and using models in any PHP project",
-            "time": "2018-02-10 18:21:40"
+            "time": "2018-02-10T18:23:42+00:00"
         },
         {
             "name": "smarty/smarty",
@@ -536,9 +536,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "serbanblebea/organize": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
