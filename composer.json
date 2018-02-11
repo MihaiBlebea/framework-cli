@@ -1,7 +1,7 @@
 {
     "name": "serbanblebea/framework-cli",
     "description": "My framework project in PHP with CLI",
-    "type": "library",
+    "type": "project",
     "authors": [
         {
             "name": "Serban Blebea",
